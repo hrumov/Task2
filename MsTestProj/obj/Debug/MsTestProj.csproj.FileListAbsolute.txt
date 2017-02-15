@@ -1,0 +1,16 @@
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\NLog.config
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\MsTestProj.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\MsTestProj.pdb
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\Task2.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\WebDriver.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\WebDriver.Support.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\NLog.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\nunit.framework.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\Task2.pdb
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\WebDriver.xml
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\NLog.xml
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\bin\Debug\nunit.framework.xml
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\obj\Debug\MsTestProj.csprojResolveAssemblyReference.cache
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\obj\Debug\MsTestProj.dll
+C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\MsTestProj\obj\Debug\MsTestProj.pdb

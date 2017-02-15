@@ -1,0 +1,2 @@
+2017-02-03 18:30:48.0605 | DEBUG | Task2.AllActionsForTests | Going to the journal page http://journals.lww.com/jonajournal
+2017-02-03 18:30:57.5715 | ERROR | Task2.AllActionsForTests | Tried to go to the http://journals.lww.com/jonajournal page

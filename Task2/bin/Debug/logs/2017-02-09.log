@@ -1,0 +1,17 @@
+2017-02-09 13:37:09.5515 | ERROR | Task2.LoginTest | SUPER NEW FULL DAVAI
+2017-02-09 13:37:09.6005 | ERROR | Task2.JournalTest | TRYING TO SET UP PARALLEL
+2017-02-09 13:37:14.3979 | INFO | Task2.JournalPage | Moving to the Login Page
+2017-02-09 13:37:14.3979 | INFO | Task2.BaseElement | Clicking on Login Link. Its locator: By.XPath: //a[@id = 'ctl00_ucUserActionsToolbar_lnkLogin']
+2017-02-09 13:37:15.3610 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jnsa
+2017-02-09 13:37:18.5734 | INFO | Task2.BaseElement | Clicking on Simple Search Bar. Its locator: By.XPath: //input[@class = 'form-control']
+2017-02-09 13:37:18.8784 | INFO | Task2.BaseElement | Filling label with info
+2017-02-09 13:37:19.0504 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //button[@type = 'submit']
+2017-02-09 13:37:23.5299 | INFO | Task2.SearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-09 13:37:23.5629 | INFO | Task2.SearchPage | Everything is ok with simple search
+2017-02-09 13:37:23.5629 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-09 13:37:28.6484 | INFO | Task2.Pages.AdvancedSearchPage | Selecting All Fields in 1 scope, its Locator: By.XPath: //select[@id = 'dplScope_1']
+2017-02-09 13:37:28.7164 | INFO | Task2.BaseElement | Filling label with info
+2017-02-09 13:37:34.0149 | ERROR | Task2.BaseElement | Element named Check Boxes was not found. Locator is: By.XPath: //div[@class = 'journalNamesDiv']
+2017-02-09 13:37:34.0149 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //input[@value = 'Search']
+2017-02-09 13:37:38.3973 | INFO | Task2.Pages.AdvancedSearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[. = '0 results']
+2017-02-09 13:37:42.4047 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jnsa

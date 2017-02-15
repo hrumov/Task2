@@ -1,0 +1,193 @@
+2017-02-10 12:07:47.2207 | ERROR | Task2.LoginTest | SUPER NEW FULL DAVAI
+2017-02-10 12:07:47.8738 | ERROR | Task2.JournalTest | Hello, new update
+2017-02-10 12:07:49.3649 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jnsa
+2017-02-10 12:07:59.1279 | INFO | Task2.JournalPage | Moving to the Login Page
+2017-02-10 12:07:59.1279 | INFO | Task2.BaseElement | Clicking on Login Link. Its locator: By.XPath: //a[@id = 'ctl00_ucUserActionsToolbar_lnkLogin']
+2017-02-10 12:08:01.1481 | INFO | Task2.LoginPage | Input login info into Login Bar
+2017-02-10 12:08:01.1481 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:08:01.4771 | INFO | Task2.LoginPage | Input password info into Password Bar
+2017-02-10 12:08:01.4771 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:08:01.7502 | INFO | Task2.BaseElement | Clicking on Login Button on Login Page. Its locator: By.XPath: //input[@value='Login']
+2017-02-10 12:08:02.3922 | INFO | Task2.BaseElement | Clicking on Simple Search Bar. Its locator: By.XPath: //input[@class = 'form-control']
+2017-02-10 12:08:02.6843 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:08:02.9343 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //button[@type = 'submit']
+2017-02-10 12:08:03.6134 | INFO | Task2.SearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-10 12:08:06.7437 | INFO | Task2.BaseElement | Clicking on Logout Button. Its locator: By.XPath: //a[@id = 'ctl00_ucUserActionsToolbar_lnkLogout']
+2017-02-10 12:08:15.9196 | INFO | Task2.SearchPage | Everything is ok with simple search
+2017-02-10 12:08:15.9196 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-10 12:08:17.9258 | INFO | Task2.Pages.AdvancedSearchPage | Selecting All Fields in 1 scope, its Locator: By.XPath: //select[@id = 'dplScope_1']
+2017-02-10 12:08:18.0608 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:08:23.4153 | ERROR | Task2.BaseElement | Element named Check Boxes was not found. Locator is: By.XPath: //div[@class = 'journalNamesDiv']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'journalNamesDiv']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:08:23.4153 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //input[@value = 'Search']
+2017-02-10 12:08:27.4147 | INFO | Task2.Pages.AdvancedSearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[. = '0 results']
+2017-02-10 12:08:32.5553 | ERROR | Task2.BaseElement | Element named Advanced Search Results was not found. Locator is: By.XPath: //div[. = '0 results']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[. = '0 results']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:08:32.5553 | INFO | Task2.Pages.AdvancedSearchPage | No results! Its a bug if data was valid
+2017-02-10 12:08:32.5553 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jnsa
+2017-02-10 12:08:34.7395 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jnsa, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:08:34.8105 | INFO | Task2.JournalPage | Checking if element exists Current Issue in jnsa, its XPath: //span[contains(text(), "Current Issue")]
+2017-02-10 12:08:34.9555 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jnsa, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:08:35.0455 | INFO | Task2.JournalPage | Checking if element exists Previous Issues in jnsa, its XPath: //span[contains(text(), "Previous Issues")]
+2017-02-10 12:08:35.0795 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jnsa, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:08:35.0905 | INFO | Task2.JournalPage | Checking if element exists Published Ahead-of-Print in jnsa, its XPath: //span[contains(text(), "Published Ahead-of-Print")]
+2017-02-10 12:08:35.1205 | INFO | Task2.JournalPage | Checking if element exists For Authors in jnsa, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:08:35.1515 | INFO | Task2.JournalPage | Checking if element exists Information for Authors in jnsa, its XPath: //span[contains(text(), "Information for Authors")]
+2017-02-10 12:08:35.1815 | INFO | Task2.JournalPage | Checking if element exists For Authors in jnsa, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:08:35.1935 | INFO | Task2.JournalPage | Checking if element exists Language Editing Services in jnsa, its XPath: //span[contains(text(), "Language Editing Services")]
+2017-02-10 12:08:35.2225 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.2515 | INFO | Task2.JournalPage | Checking if element exists About the Journal in jnsa, its XPath: //span[contains(text(), "About the Journal")]
+2017-02-10 12:08:35.2825 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.2945 | INFO | Task2.JournalPage | Checking if element exists Editorial Board in jnsa, its XPath: //span[contains(text(), "Editorial Board")]
+2017-02-10 12:08:35.3245 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.3375 | INFO | Task2.JournalPage | Checking if element exists Affiliated Societies in jnsa, its XPath: //span[contains(text(), "Affiliated Societies")]
+2017-02-10 12:08:35.3685 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.3825 | INFO | Task2.JournalPage | Checking if element exists Advertising in jnsa, its XPath: //span[contains(text(), "Advertising")]
+2017-02-10 12:08:35.4165 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.4305 | INFO | Task2.JournalPage | Checking if element exists Open Access in jnsa, its XPath: //span[contains(text(), "Open Access")]
+2017-02-10 12:08:35.4625 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.4755 | INFO | Task2.JournalPage | Checking if element exists Subscription Services in jnsa, its XPath: //span[contains(text(), "Subscription Services")]
+2017-02-10 12:08:35.5055 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.5055 | INFO | Task2.JournalPage | Checking if element exists Reprints in jnsa, its XPath: //span[contains(text(), "Reprints")]
+2017-02-10 12:08:35.5526 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jnsa, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:08:35.5526 | INFO | Task2.JournalPage | Checking if element exists Rights and Permissions in jnsa, its XPath: //span[contains(text(), "Rights and Permissions")]
+2017-02-10 12:08:35.6146 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonajournal
+2017-02-10 12:08:53.1993 | INFO | Task2.BaseElement | Clicking on Simple Search Bar. Its locator: By.XPath: //input[@class = 'form-control']
+2017-02-10 12:08:53.3833 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:08:53.4663 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //button[@type = 'submit']
+2017-02-10 12:09:00.2990 | INFO | Task2.SearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-10 12:09:00.3430 | INFO | Task2.SearchPage | Everything is ok with simple search
+2017-02-10 12:09:00.3430 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-10 12:09:02.2982 | INFO | Task2.Pages.AdvancedSearchPage | Selecting All Fields in 1 scope, its Locator: By.XPath: //select[@id = 'dplScope_1']
+2017-02-10 12:09:02.3652 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:09:07.6248 | ERROR | Task2.BaseElement | Element named Check Boxes was not found. Locator is: By.XPath: //div[@class = 'journalNamesDiv']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'journalNamesDiv']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:09:07.6248 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //input[@value = 'Search']
+2017-02-10 12:09:23.9134 | INFO | Task2.Pages.AdvancedSearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[. = '0 results']
+2017-02-10 12:09:28.9769 | ERROR | Task2.BaseElement | Element named Advanced Search Results was not found. Locator is: By.XPath: //div[. = '0 results']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[. = '0 results']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:09:28.9769 | INFO | Task2.Pages.AdvancedSearchPage | No results! Its a bug if data was valid
+2017-02-10 12:09:28.9769 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonajournal
+2017-02-10 12:09:32.1962 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonajournal, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:09:32.2392 | INFO | Task2.JournalPage | Checking if element exists Current Issue in jonajournal, its XPath: //span[contains(text(), "Current Issue")]
+2017-02-10 12:09:32.2822 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonajournal, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:09:32.3022 | INFO | Task2.JournalPage | Checking if element exists Previous Issues in jonajournal, its XPath: //span[contains(text(), "Previous Issues")]
+2017-02-10 12:09:32.3422 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonajournal, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:09:32.3422 | INFO | Task2.JournalPage | Checking if element exists Published Ahead-of-Print in jonajournal, its XPath: //span[contains(text(), "Published Ahead-of-Print")]
+2017-02-10 12:09:32.3922 | INFO | Task2.JournalPage | Checking if element exists Collections in jonajournal, its XPath: //a[contains(text(), "Collections")]
+2017-02-10 12:09:32.4232 | INFO | Task2.JournalPage | Checking if element exists Topical Collections in jonajournal, its XPath: //span[contains(text(), "Topical Collections")]
+2017-02-10 12:09:32.4522 | INFO | Task2.JournalPage | Checking if element exists For Authors in jonajournal, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:09:32.4802 | INFO | Task2.JournalPage | Checking if element exists Information for Authors in jonajournal, its XPath: //span[contains(text(), "Information for Authors")]
+2017-02-10 12:09:32.5142 | INFO | Task2.JournalPage | Checking if element exists For Authors in jonajournal, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:09:32.5282 | INFO | Task2.JournalPage | Checking if element exists Language Editing Services in jonajournal, its XPath: //span[contains(text(), "Language Editing Services")]
+2017-02-10 12:09:32.5583 | INFO | Task2.JournalPage | Checking if element exists For Authors in jonajournal, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:09:32.5843 | INFO | Task2.JournalPage | Checking if element exists Author's Institution Press Release Guidelines in jonajournal, its XPath: //span[contains(text(), "Author's Institution Press Release Guidelines")]
+2017-02-10 12:09:32.6263 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.6583 | INFO | Task2.JournalPage | Checking if element exists About the Journal in jonajournal, its XPath: //span[contains(text(), "About the Journal")]
+2017-02-10 12:09:32.7203 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.7303 | INFO | Task2.JournalPage | Checking if element exists Editorial Board in jonajournal, its XPath: //span[contains(text(), "Editorial Board")]
+2017-02-10 12:09:32.7583 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.7683 | INFO | Task2.JournalPage | Checking if element exists Advertising in jonajournal, its XPath: //span[contains(text(), "Advertising")]
+2017-02-10 12:09:32.7963 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.7963 | INFO | Task2.JournalPage | Checking if element exists Open Access in jonajournal, its XPath: //span[contains(text(), "Open Access")]
+2017-02-10 12:09:32.8343 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.8483 | INFO | Task2.JournalPage | Checking if element exists Subscription Services in jonajournal, its XPath: //span[contains(text(), "Subscription Services")]
+2017-02-10 12:09:32.8773 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.8883 | INFO | Task2.JournalPage | Checking if element exists Reprints in jonajournal, its XPath: //span[contains(text(), "Reprints")]
+2017-02-10 12:09:32.9193 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonajournal, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:09:32.9193 | INFO | Task2.JournalPage | Checking if element exists Rights and Permissions in jonajournal, its XPath: //span[contains(text(), "Rights and Permissions")]
+2017-02-10 12:09:32.9623 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonmd
+2017-02-10 12:09:36.2696 | INFO | Task2.BaseElement | Clicking on Simple Search Bar. Its locator: By.XPath: //input[@class = 'form-control']
+2017-02-10 12:09:36.4626 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:09:36.5677 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //button[@type = 'submit']
+2017-02-10 12:09:43.0093 | INFO | Task2.SearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-10 12:09:44.0784 | INFO | Task2.SearchPage | Everything is ok with simple search
+2017-02-10 12:09:44.0784 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-10 12:09:49.1419 | INFO | Task2.Pages.AdvancedSearchPage | Selecting All Fields in 1 scope, its Locator: By.XPath: //select[@id = 'dplScope_1']
+2017-02-10 12:09:49.1959 | INFO | Task2.BaseElement | Filling label with info
+2017-02-10 12:09:54.4104 | ERROR | Task2.BaseElement | Element named Check Boxes was not found. Locator is: By.XPath: //div[@class = 'journalNamesDiv']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'journalNamesDiv']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:09:54.4104 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //input[@value = 'Search']
+2017-02-10 12:10:02.2332 | INFO | Task2.Pages.AdvancedSearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[. = '0 results']
+2017-02-10 12:10:07.2987 | ERROR | Task2.BaseElement | Element named Advanced Search Results was not found. Locator is: By.XPath: //div[. = '0 results']. Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[. = '0 results']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Task2.BaseElement.getElement(IWebDriver driver) in C:\Users\Uladzimir_Shved\documents\visual studio 2015\Projects\Task2\Task2\BaseElement.cs:line 48
+2017-02-10 12:10:07.3007 | INFO | Task2.Pages.AdvancedSearchPage | No results! Its a bug if data was valid
+2017-02-10 12:10:07.3007 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonmd
+2017-02-10 12:10:09.6280 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonmd, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:10:09.7050 | INFO | Task2.JournalPage | Checking if element exists Current Issue in jonmd, its XPath: //span[contains(text(), "Current Issue")]
+2017-02-10 12:10:09.7440 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonmd, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:10:09.7920 | INFO | Task2.JournalPage | Checking if element exists Previous Issues in jonmd, its XPath: //span[contains(text(), "Previous Issues")]
+2017-02-10 12:10:09.8200 | INFO | Task2.JournalPage | Checking if element exists Articles & Issues in jonmd, its XPath: //a[contains(text(), "Articles & Issues")]
+2017-02-10 12:10:09.8300 | INFO | Task2.JournalPage | Checking if element exists Published Ahead-of-Print in jonmd, its XPath: //span[contains(text(), "Published Ahead-of-Print")]
+2017-02-10 12:10:09.8570 | INFO | Task2.JournalPage | Checking if element exists For Authors in jonmd, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:10:09.8840 | INFO | Task2.JournalPage | Checking if element exists Information for Authors in jonmd, its XPath: //span[contains(text(), "Information for Authors")]
+2017-02-10 12:10:09.9120 | INFO | Task2.JournalPage | Checking if element exists For Authors in jonmd, its XPath: //a[contains(text(), "For Authors")]
+2017-02-10 12:10:09.9220 | INFO | Task2.JournalPage | Checking if element exists Language Editing Services in jonmd, its XPath: //span[contains(text(), "Language Editing Services")]
+2017-02-10 12:10:09.9490 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:09.9750 | INFO | Task2.JournalPage | Checking if element exists About the Journal in jonmd, its XPath: //span[contains(text(), "About the Journal")]
+2017-02-10 12:10:10.0060 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.0770 | INFO | Task2.JournalPage | Checking if element exists Editorial Board in jonmd, its XPath: //span[contains(text(), "Editorial Board")]
+2017-02-10 12:10:10.1290 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.1600 | INFO | Task2.JournalPage | Checking if element exists Advertising in jonmd, its XPath: //span[contains(text(), "Advertising")]
+2017-02-10 12:10:10.2380 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.2500 | INFO | Task2.JournalPage | Checking if element exists Open Access in jonmd, its XPath: //span[contains(text(), "Open Access")]
+2017-02-10 12:10:10.2880 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.2990 | INFO | Task2.JournalPage | Checking if element exists Subscription Services in jonmd, its XPath: //span[contains(text(), "Subscription Services")]
+2017-02-10 12:10:10.3260 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.3360 | INFO | Task2.JournalPage | Checking if element exists Reprints in jonmd, its XPath: //span[contains(text(), "Reprints")]
+2017-02-10 12:10:10.3620 | INFO | Task2.JournalPage | Checking if element exists Journal Info in jonmd, its XPath: //a[contains(text(), "Journal Info")]
+2017-02-10 12:10:10.3620 | INFO | Task2.JournalPage | Checking if element exists Rights and Permissions in jonmd, its XPath: //span[contains(text(), "Rights and Permissions")]

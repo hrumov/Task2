@@ -1,0 +1,20 @@
+2017-02-08 18:20:14.0524 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jnsa
+2017-02-08 18:20:16.7784 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-08 18:20:18.4564 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonajournal
+2017-02-08 18:20:31.6454 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-08 18:20:33.3564 | DEBUG | Task2.JournalPage | Going to the journal page http://journals.lww.com/jonmd
+2017-02-08 18:20:35.8444 | INFO | Task2.BaseElement | Clicking on Advanced Search Link. Its locator: By.XPath: //div[@class = 'advance-search']
+2017-02-08 18:20:37.1974 | INFO | Task2.JournalPage | Moving to the Login Page
+2017-02-08 18:20:37.1974 | INFO | Task2.BaseElement | Clicking on Login Link. Its locator: By.XPath: //a[@id = 'ctl00_ucUserActionsToolbar_lnkLogin']
+2017-02-08 18:20:38.5714 | INFO | Task2.LoginPage | Input login info into Login Bar
+2017-02-08 18:20:38.5714 | INFO | Task2.BaseElement | Filling label with info
+2017-02-08 18:20:38.7754 | INFO | Task2.LoginPage | Input password info into Password Bar
+2017-02-08 18:20:38.7754 | INFO | Task2.BaseElement | Filling label with info
+2017-02-08 18:20:38.9684 | INFO | Task2.BaseElement | Clicking on Login Button on Login Page. Its locator: By.XPath: //input[@value='Login']
+2017-02-08 18:20:42.1774 | INFO | Task2.BaseElement | Clicking on Logout Button. Its locator: By.XPath: //a[@id = 'ctl00_ucUserActionsToolbar_lnkLogout']
+2017-02-08 18:20:44.8954 | INFO | Task2.BaseElement | Clicking on Simple Search Bar. Its locator: By.XPath: //input[@class = 'form-control']
+2017-02-08 18:20:45.1534 | INFO | Task2.BaseElement | Filling label with info
+2017-02-08 18:20:45.2804 | INFO | Task2.BaseElement | Clicking on Search Button. Its locator: By.XPath: //button[@type = 'submit']
+2017-02-08 18:20:47.9004 | INFO | Task2.SearchPage | Checking if search has results by checking element with XPath: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-08 18:20:52.9764 | ERROR | Task2.BaseElement | Element named Search Result was not found. Locator is: By.XPath: //div[@class = 'wp-feature-articles']
+2017-02-08 18:20:52.9764 | INFO | Task2.SearchPage | No results! Its a bug if data was valid
